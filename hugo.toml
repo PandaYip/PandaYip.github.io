@@ -1,24 +1,13 @@
-baseURL = 'https://PandaYip.github.io/'
-languageCode = 'en-us'
+baseURL = 'https://pandayip.github.io/'
+languageCode = 'zh-cn'
 title = 'Panda Yip 的碎碎念'
 theme = "PaperMod"
 
-
-
-relativeURLs = true
-canonifyURLs = true
-
 [params]
-  author = "PandaYip"
-  ShowReadingTime = true
+  homeInfoParams = { Title = "Panda Yip 的碎碎念", Content = "折腾永无止境" }
+  socialIcons = [
+    { name = "github", url = "https://github.com/PandaYip" },
+    { name = "twitter", url = "https://x.com/panda_yip" }
+  ]
 
-[menu]
-  [[menu.main]]
-    name = "Home"
-    url = "/"
-    weight = 1
-
-  [[menu.main]]
-    name = "Posts"
-    url = "/posts/"
-    weight = 2
+  
