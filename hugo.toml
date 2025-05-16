@@ -4,7 +4,15 @@ title = 'Panda Yip 的碎碎念'
 theme = "PaperMod"
 
 
-  [menu]
+
+relativeURLs = true
+canonifyURLs = true
+
+[params]
+  author = "PandaYip"
+  ShowReadingTime = true
+
+[menu]
   [[menu.main]]
     name = "Home"
     url = "/"
