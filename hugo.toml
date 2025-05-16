@@ -1,8 +1,7 @@
-baseURL = 'https://pandayip.github.io/'
-languageCode = 'zh-cn'
+baseURL = 'https://PandaYip.github.io/'
+languageCode = 'en-us'
 title = 'Panda Yip 的碎碎念'
 theme = "PaperMod"
-
 
 
   [menu]
