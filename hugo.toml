@@ -50,11 +50,6 @@ canonifyURLs = true
   url = "/tags/life_goes_on/"
   weight = 5
 
-# 语言设置为中文
-[languages.zh]
-  languageName = "中文"
-  weight = 1
-
 [taxonomies]
   tag = "tags"
   category = "categories"
