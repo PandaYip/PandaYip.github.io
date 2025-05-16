@@ -3,12 +3,7 @@ languageCode = 'zh-cn'
 title = 'Panda Yip 的碎碎念'
 theme = "PaperMod"
 
-[params]
-  homeInfoParams = { Title = "Panda Yip 的碎碎念", Content = "折腾永无止境" }
-  socialIcons = [
-    { name = "github", url = "https://github.com/PandaYip" },
-    { name = "twitter", url = "https://x.com/panda_yip" }
-  ]
+
 
   [menu]
   [[menu.main]]
