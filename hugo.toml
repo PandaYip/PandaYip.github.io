@@ -3,11 +3,58 @@ languageCode = 'zh-cn'
 title = 'Panda Yip 的碎碎念'
 theme = "PaperMod"
 
+relativeURLs = true
+canonifyURLs = true
+
 [params]
   homeInfoParams = { Title = "Panda Yip 的碎碎念", Content = "折腾永无止境" }
   socialIcons = [
     { name = "github", url = "https://github.com/PandaYip" },
     { name = "twitter", url = "https://x.com/panda_yip" }
   ]
+  author = "Panda Yip"
+  description = "记录技术和生活的 Hugo 博客"
+  defaultTheme = "PaperMod"
+  ShowCodeCopyButtons = true
+  ShowToc = true
+  ShowPostNavLinks = true
+  # ShowBreadCrumbs = true
 
-  
+  # 标签分类设置
+  ShowTaxonomies = true
+  mainSections = ["posts"]
+
+# 菜单栏设置（包括标签页）
+[[menu.main]]
+  name = "首页"
+  url = "/"
+  weight = 1
+
+[[menu.main]]
+  name = "文章"
+  url = "/posts/"
+  weight = 2
+
+[[menu.main]]
+  name = "标签"
+  url = "/tags/"
+  weight = 3
+
+[[menu.main]]
+  name = "web3"
+  url = "/tags/web3/"
+  weight = 4
+
+[[menu.main]]
+  name = "life_goes_on"
+  url = "/tags/life_goes_on/"
+  weight = 5
+
+# 语言设置为中文
+[languages.zh]
+  languageName = "中文"
+  weight = 1
+
+[taxonomies]
+  tag = "tags"
+  category = "categories"
