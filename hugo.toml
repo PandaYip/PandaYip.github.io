@@ -9,3 +9,14 @@ theme = "PaperMod"
     { name = "github", url = "https://github.com/PandaYip" },
     { name = "twitter", url = "https://x.com/panda_yip" }
   ]
+
+  [menu]
+  [[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+
+  [[menu.main]]
+    name = "Posts"
+    url = "/posts/"
+    weight = 2
